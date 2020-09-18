@@ -9,6 +9,7 @@
   margin: 0 auto;
   overflow: hidden;
   min-height: 100%;
+  position: relative;
 }
 
 .background-image {
@@ -91,18 +92,14 @@
   margin-bottom: 0px;
 }
 
-.webdev-heaer {
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 4.5px;
-
-  font-style: normal;
-  font-weight: bold;
-  font-size: 64px;
-  line-height: 75px;
-
-  margin: 0;
-  margin-left: 21px;
+.webdev-hedaer {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  overflow: hidden;
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px);
 }
 
 .your-life-text {
@@ -140,17 +137,17 @@
 }
 
 .button:hover {
-  color: #00afdb;
-  background-color: rgb(224, 224, 224);
-  border: 1px solid #eee;
+  color: #fff;
+  background-color: #009CC2;;
+  border: 1px solid #009CC2;;
 }
 
 .your-life-button {
   display: block;
   margin: auto;
   margin-bottom: 183px;
-  padding-top: 12px;
-  padding-bottom: 14px;
+  padding-top: 14px;
+  padding-bottom: 13px;
 }
 
 .list-your-life-submenu {
@@ -214,8 +211,8 @@
 
 .rappresent-button {
   margin-top: 15px;
-  padding-top: 12px;
-  padding-bottom: 14px;
+  padding-top: 14px;
+  padding-bottom: 13px;
 }
 
 .rappresent-img {
@@ -243,9 +240,14 @@
   margin: 0 auto 19px;
 }
 
+.interactive {
+  padding-right: 5px;
+  padding-left: 3px;
+}
+
 .interactive:hover {
   cursor: pointer;
-  color: rgb(175, 0, 150);
+  transform: scale(1.5);
 }
 
 .our-community-title {
@@ -351,8 +353,8 @@
 .implement-button {
   margin-left: 0px;
   width: 179px;
-  padding-top: 12px;
-  padding-bottom: 14px;
+  padding-top: 14px;
+  padding-bottom: 13px;
 }
 
 .subscribe {
@@ -440,8 +442,8 @@ input:-ms-input-placeholder {
 }
 
 .subscribe-button:hover {
-  background-color: #5bbed6;
-  border: 1px solid #5bbed6;
+  background-color: #009CC2;
+  border: 1px solid #009CC2;
 }
 
 .download {
@@ -526,10 +528,10 @@ input:-ms-input-placeholder {
 }
 
 .download-button:hover {
-  color: #00afdb;
+  color: #eee;
   /* background-color: rgb(224, 224, 224); */
-  border: 1px solid #eee;
-  background: linear-gradient(to right, #83c1c5 68%, #aaa 32%);
+  border: 1px solid #009CC2;
+  background: linear-gradient(to right, #009CC2 68%, #00afdb 32%);
 }
 
 .text-icon {

@@ -531,7 +531,7 @@ input:-ms-input-placeholder {
   color: #eee;
   /* background-color: rgb(224, 224, 224); */
   border: 1px solid #009CC2;
-  background: linear-gradient(to right, #009CC2 68%, #00afdb 32%);
+  background: linear-gradient(to right, #009CC2 68%, #009cc2 32%);
 }
 
 .text-icon {

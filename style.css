@@ -1,7 +1,7 @@
 .webdev {
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
 }
 
 .wrapper {
@@ -362,6 +362,7 @@
   background-image: url(./assets/pexels-christina-morillo-1181675\ 1.png);
   background-repeat: no-repeat;
   background-size: cover;
+  height: 524px;
 
   display: flex;
   flex-direction: column;
@@ -369,8 +370,8 @@
 }
 
 .subscribe-title {
-  padding-top: 198px;
-  margin-bottom: 29px;
+  padding-top: 238px;
+  margin-bottom: 28px;
 
   font-style: normal;
   font-weight: 500; /* bold */
@@ -406,19 +407,19 @@
 
 input::-webkit-input-placeholder {
   color: inherit;
-  opacity: 1;
+  opacity: 0.5;
 }
 input::-moz-placeholder {
   color: inherit;
-  opacity: 1;
+  opacity: 0.5;
 }
 input:-moz-placeholder {
   color: inherit;
-  opacity: 1;
+  opacity: 0.5;
 }
 input:-ms-input-placeholder {
   color: inherit;
-  opacity: 1;
+  opacity: 0.5;
 }
 
 .subscribe-button {
@@ -447,8 +448,8 @@ input:-ms-input-placeholder {
 }
 
 .download {
-  padding-top: 121px;
-  padding-bottom: 180px;
+  padding-top: 120px;
+  padding-bottom: 178px;
   background: #f5f6f7;
 }
 
@@ -468,7 +469,7 @@ input:-ms-input-placeholder {
 }
 
 .download-text {
-  margin-bottom: 28px;
+  margin-bottom: 26px;
 
   text-align: center;
   font-style: normal;
@@ -518,7 +519,7 @@ input:-ms-input-placeholder {
   /* display: block; */
   margin: 0 auto 0;
   /* margin-bottom: 179px; */
-  padding: 14px 19px 14px 18px;
+  padding: 13px 18px 13px 17px;
 
   display: flex;
   align-items: center;
@@ -552,7 +553,7 @@ input:-ms-input-placeholder {
   align-items: center;
   width: 1280px;
   margin: auto;
-  padding-top: 57px;
+  padding-top: 59px;
   padding-bottom: 90px;
 }
 

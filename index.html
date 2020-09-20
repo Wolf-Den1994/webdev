@@ -12,9 +12,9 @@
   </head>
   <body class="webdev">
     <div class="wrapper">
-      <h1 class="webdev-hedaer">webdev</h1>
       <div class="background-image">
         <header class="header">
+          <h1 class="webdev-hedaer">webdev</h1>
           <nav class="header-menu">
             <ul class="list-header-menu">
               <li class="item-header-menu">
@@ -181,8 +181,10 @@
                 name="email"
                 placeholder="E-mail"
                 class="email"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$"
+                required
               /><!--
-						--><button class="subscribe-button">
+						--><button class="subscribe-button" type="submit">
                 <img src="./assets/fa-check.svg" alt="ok" class="img-ok" />
               </button>
             </form>
